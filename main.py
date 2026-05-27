@@ -1,4 +1,4 @@
-cordenadas = [[i for i in range(4)]for j in range(4)]
+coordenadas = [[i for i in range(4)]for j in range(4)]
 while True:
     user_rta1 = int(input("ingresa un num de lista o escribe -10 para salir: "))
     if user_rta1 == -10:
@@ -13,4 +13,4 @@ while True:
             continue
         total = cordenadas[user_rta1][user_rta2]
         print(total)
-print("gracias por usar el sis de cordenadas")
+print("gracias por usar el sist de cordenadas")
